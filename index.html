@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Increment and decrement</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#a4ac86] gap-10">
+
+          <div class="text-[#333d29] font-medium text-[40px]">Increment and Decrement</div>
+
+          <div class="flex flex-row text-[25px] text-[#333d29] rounded-sm bg-[#c2c5aa] gap-12 p-3 pr-5">
+               <!-- negative btn -->
+               <button onclick="decrement()" class="border-r-2 border-[#333d29] pr-5"><i class="fa-solid fa-minus"></i></button> 
+               <div id="counter" class="font-bold">0</div>
+               <button onclick="increment()" class="border-l-2 border-[#333d29] pl-5"><i class="fa-solid fa-plus"></i></button>
+          </div>
+     </div>
+
+
+
+
+
+
+     
+     <script src="app.js"></script>
+</body>
+</html>
